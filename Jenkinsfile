@@ -15,7 +15,7 @@ pipeline {
     stages{
         stage ('Checkout') {
             steps{
-                checkout poll: false, scm: scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/vcjain/jenkins_pipeline_springboot_demo.git']])
+                checkout poll: false, scm: scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Sneha982/jenkins_pipeline_springboot_demo.git']])
             }
             
         }
